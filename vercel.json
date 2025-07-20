@@ -1,5 +1,4 @@
 {
-  "name": "quiz-app-frontend",
   "version": 2,
   "builds": [
     {
@@ -15,8 +14,5 @@
       "src": "/(.*)",
       "dest": "client/$1"
     }
-  ],
-  "buildCommand": "cd client && npm run build",
-  "devCommand": "cd client && npm start",
-  "installCommand": "cd client && npm install"
+  ]
 }
